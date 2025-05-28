@@ -1,49 +1,44 @@
-# Netflix Clone
+# 🎬 Movie Stream Clone (Netflix UI Clone)
 
-- Demo: <https://netflix-clone-ebon-nu.vercel.app/>
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-blue?style=for-the-badge&logo=github)](https://rutujathorave-04.github.io/movie-stream-clone/)
 
-This project is a simplified front end clone of Netflix. It was created with React and CSS (Grid and Flexbox). It uses [The MovieDB Api](https://www.themoviedb.org/documentation/api) to search for movies and display details. Feel free to contribute!
+A responsive **Netflix-inspired movie streaming clone** built using **React.js** and styled with modern **CSS (Grid & Flexbox)**. This app fetches dynamic movie data using **The Movie Database (TMDb) API** and displays it in a clean, responsive interface.
 
-### TODO's
+![App Screenshot](./bd4eefc2-cad1-4a1e-96b5-a49313bca82b.png)
 
-- [ ] Implement Not Found page styles
-- [ ] Implement navigation header links functionality
-- [ ] Update modal to current styling
-- [ ] Update carousel to current styling
-- [ ] Create movie page
-- [ ] Create user account page
-- [x] Migrate to Typescript
-- [ ] Implement dynamic code splitting with dynamic imports
-- [x] Setup storybook
-- [ ] Implement internationalization with react-i18next
-- [ ] Exclude storybook files from test coverage
+---
 
-### Tools used
+## 🚀 Features
 
-- Webpack v5
-- Axios
-- Redux & React
-- Sass (grid & flexbox)
-- Media queries
-- Swiper JS
+- 🔍 Real-time movie data from [TMDb](https://www.themoviedb.org/)
+- 🎞️ Display movie posters, names, and descriptions
+- 💻 Fully responsive layout (CSS Grid & Flexbox)
+- 🌐 Deployed via GitHub Pages
+- 📁 Clean and minimal UI inspired by Netflix
 
-### Runing Project Locally
+---
 
-- Install dependencies: run `npm install` in root project
-- Get API key from [here](https://www.themoviedb.org/documentation/api)
-- Create .env file in root project and add: `API_KEY=YOUR_API_KEY_HERE`
-- Run project: `npm run dev`
+## 📦 Tech Stack
 
-### User Stories
+- **Frontend**: React.js
+- **Styling**: CSS3 (Grid & Flexbox)
+- **API**: [The Movie Database API](https://developers.themoviedb.org/3)
+- **Deployment**: GitHub Pages
 
-- User can search for movies and TV shows on TMDb
-- User can the see upcoming and trending movies. Data updates weekly
-- User can click on a movie and a modal should pop up. It should display the title, release date, overview, and runtime.
-- The webpage adapts to any screen size.
+---
 
-### Video Walktrough
+## 🔗 Demo
 
-![](https://github.com/AndresXI/Netflix-Clone/blob/master/netflix-demo.gif?raw=true)
+**Live Site**: [https://rutujathorave-04.github.io/movie-stream-clone/](https://rutujathorave-04.github.io/movie-stream-clone/)
 
-Please feel free to create a pull request and submit any issues!
-Currently looking for backend developers. If you would to contribute to support a backend, reach out, all ideas are welcomed!
+---
+
+## 🛠️ Getting Started
+
+Clone and run locally:
+
+```bash
+git clone https://github.com/rutujathorave-04/movie-stream-clone.git
+cd movie-stream-clone
+npm install
+npm start
