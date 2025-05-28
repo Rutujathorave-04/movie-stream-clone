@@ -19,7 +19,9 @@ module.exports = () => {
     entry: './src/index.js',
     output: {
       filename: '[name].[contenthash].js',
-      path: path.resolve(__dirname, 'dist'),
+      // path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'build'),
+
       assetModuleFilename: 'assets/[name][ext]',
       clean: true,
     },
