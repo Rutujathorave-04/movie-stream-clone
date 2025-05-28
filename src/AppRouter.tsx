@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom'
+import { HashRouter, Route, Routes, Outlet } from 'react-router-dom'
 
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar'
@@ -18,16 +18,16 @@ const Layout = () => {
 }
 
 const AppRouter = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path='/browse' element={<Home />} />
-        <Route path='/search' element={<Search />} />
+        <Route path='browse' element={<Home />} />
+        <Route path='search' element={<Search />} />
         <Route path='*' element={<NotFound />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 )
 
 export default AppRouter
